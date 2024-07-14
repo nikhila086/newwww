@@ -1,0 +1,41 @@
+/* Center the dropdown container in the viewport */
+.dropdown-container {
+  display: flex; /* Use Flexbox for flexible layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  height: 100vh; /* Full viewport height for centering */
+}
+
+/* Style the dropdown button for reusability in other components */
+.dropdown-button {
+  padding: 10px 20px; /* Consistent padding for clickable area */
+  font-size: 16px; /* Standard font size for readability */
+  cursor: pointer; /* Indicate clickable button */
+  border: none; /* Clean look by removing default border */
+  border-radius: 5px; /* Rounded corners for modern design */
+  background-color: #c738bd; /* Primary button color */
+  color: white; /* Text color for contrast */
+  transition: background-color 0.3s ease; /* Smooth color transition for hover effect */
+}
+
+/* Reusable hover effect for buttons */
+.dropdown-button:hover {
+  background-color: #850f8d; /* Darker shade for visual feedback */
+}
+
+/* Style the select dropdown for uniform appearance */
+.dropdown-select {
+  margin-top: 10px; /* Space above select for separation */
+  padding: 10px; /* Padding for clickable area */
+  font-size: 16px; /* Consistent font size */
+  border: 1px solid #c738bd; /* Border to match button color */
+  border-radius: 5px; /* Rounded corners for design consistency */
+  outline: none; /* Remove default focus outline */
+  transition: border-color 0.3s ease; /* Smooth transition for focus effect */
+}
+
+/* Reusable focus effect for form elements */
+.dropdown-select:focus {
+  border-color: #850f8d; /* Darker border color for focus indication */
+}
